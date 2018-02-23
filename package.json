@@ -1,0 +1,20 @@
+{
+    "name": "jira-slack",
+    "description": "Web entrypoint application that notifies to Slack when who wrote a new comment into an issue upon JIRA",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "node jira-slack.js"
+    },
+    "author": {
+        "name": "Satoshi AZUMA",
+        "email": "ytnobody@gmail.com",
+        "url": "https://ytnobody.net/"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "express":"4.16.2",
+        "body-parser":"1.18.2",
+        "sprintf-js":"1.1.1",
+        "slack-incoming-webhook":"1.1.0"
+    }
+}
