@@ -5,14 +5,14 @@ Web entrypoint application that notifies to Slack when who wrote a new comment i
 ![image](doc/image/example.png)
 ## SYNOPSIS
 
-    git clone https://github.com/ytnobody/jira-slack.git
-    cd jira-slack
-    npm install
-    PORT=5000 \
-    JIRA_TEAM=myteamname \
-    SLACK_WEBHOOK_URL=https://hooks.slack.com/... \
-    SLACK_CHANNEL="#jira-comments" \
-    npm start
+    $ git clone https://github.com/ytnobody/jira-slack.git
+    $ cd jira-slack
+    $ npm install
+    $ PORT=5000 \
+      JIRA_TEAM=myteamname \
+      SLACK_WEBHOOK_URL=https://hooks.slack.com/... \
+      SLACK_CHANNEL="#jira-comments" \
+      npm start
 
 ## ENV
 
